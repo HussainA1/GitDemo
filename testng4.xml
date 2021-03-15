@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="resources.Listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+
+  
+    <test name="ManageTeam_Owner">
+    <classes>
+               <class name="EicherMobileAutomation.EicherMobileAppAutomation.ManageTeam_Owner"/>
+      
+    </classes>
+  </test> <!-- Test -->
+ 
+   <test name="ManageFleet">
+    <classes>
+               <class name="EicherMobileAutomation.EicherMobileAppAutomation.ManageFleet"/>
+      
+    </classes>
+  </test> <!-- Test -->
+ 
+    <test name="LocateADealer">
+    <classes>
+               <class name="EicherMobileAutomation.EicherMobileAppAutomation.LocateADealer"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="OurProducts">
+    <classes>
+               <class name="EicherMobileAutomation.EicherMobileAppAutomation.OurProducts"/>
+      
+    </classes>
+  </test> <!-- Test -->
+       <test name="KnowledgeCentre">
+    <classes>
+               <class name="EicherMobileAutomation.EicherMobileAppAutomation.KnowledgeCentre"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Edit_Profile">
+    <classes>
+               <class name="EicherMobileAutomation.EicherMobileAppAutomation.Edit_Profile"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Fleet_Improvement">
+		<classes>
+			<class
+				name="EicherMobileAutomation.EicherMobileAppAutomation.Fleet_Improvement" />
+
+		</classes>
+	</test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+

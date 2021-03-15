@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="resources.Listeners" />
+		<listener class-name="resources.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="ManageTeam_Owner">
+		<classes>
+			<class
+				name="EicherMobileAutomation.EicherMobileAppAutomation.ManageTeam_Owner">
+				<methods>
+					<include name="hello" />
+				</methods>
+
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+	<test name="Yest">
+		<classes>
+			<class
+				name="EicherMobileAutomation.EicherMobileAppAutomation.Yest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	
+
+</suite> <!-- Suite -->
+
